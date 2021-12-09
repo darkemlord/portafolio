@@ -19,10 +19,13 @@ body{
   padding: 0;
 }
 
+html, body {
+  overflow-x: hidden;
+}
 // Scroll design
 
 body::-webkit-scrollbar{
-  width: 0.25rem;
+  width: 0.01rem;
 }
 
 body::-webkit-scrollbar-thumb {
