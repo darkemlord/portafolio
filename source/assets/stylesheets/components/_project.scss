@@ -1,5 +1,5 @@
 .project-card{
-  background-color: gray;
+  background-color: $project-back;
   border-radius: 15px;
   height: 500px;
 }
@@ -11,9 +11,20 @@
 
 .project-card{
   display: flex;
-
 }
-
+.card-right{
+  display: flex;
+  flex-direction: column;
+}
+.card-image{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  img{
+    width: 50%;
+    object-fit: cover;
+  }
+}
 .carousel-control-prev-icon{
   margin-right: 90px;
 }
