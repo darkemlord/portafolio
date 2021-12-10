@@ -15,6 +15,11 @@
         <div class="carousel-item">
           <div class="project-card">
             <h1><%= product.name %></h1>
+            <% product.icons.each do |icon|%>
+              <div class="container">
+                <%= image_tag icon, class:"card-icon" %>
+              </div>
+            <% end %>
           </div>
         </div>
       <% end %>

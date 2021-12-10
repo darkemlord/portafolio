@@ -1,9 +1,13 @@
 - name: Raibuon
   image: raibuon.png
   description: Nice App to tip persons in the street
-  ruby: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
+  icons:
+   - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
+   - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
+   - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
 
 - name: Other product
   image: other_product.png
   description: Nice App to tip persons in the street
-  ruby: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
+  icons:
+    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
