@@ -7,19 +7,28 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="project-card">
-          <h1>Hello world</h1>
+          <div class="container-fluid card-right">
+            <h1>Take a look!</h1>
+          </div>
         </div>
       </div>
       <%# Here is the iteration on my projects %>
       <% data.products.each do |product| %>
         <div class="carousel-item">
           <div class="project-card">
-            <h1><%= product.name %></h1>
-            <% product.icons.each do |icon|%>
+            <div class="container-fluid card-right">
+              <h1><%= product.name %></h1>
+            </div>
+            <div class="container-fluid card-left">
               <div class="container">
-                <%= image_tag icon, class:"card-icon" %>
+                <p><%= product.description %></p>
               </div>
-            <% end %>
+              <% product.icons.each do |icon|%>
+                <div class="container">
+                  <%= image_tag icon, class:"card-icon" %>
+                </div>
+              <% end %>
+            </div>
           </div>
         </div>
       <% end %>
