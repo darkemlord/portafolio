@@ -14,8 +14,8 @@ window.addEventListener('scroll', () => {
 });
 
 navbar.addEventListener('click', () => {
-  navbar.style.backgroundColor = 'white';
-  setInterval(() => {
-    navbar.style.backgroundColor = 'purple';
-  }, 4000);
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 });
