@@ -16,21 +16,21 @@
       <% data.products.each do |product| %>
         <div class="carousel-item">
           <div class="project-card">
-            <div class="container-fluid card-right">
+            <div class="container-fluid card-left">
               <h1><%= product.name %></h1>
               <div class="card-image">
                 <%= image_tag product.image %>
               </div>
             </div>
-            <div class="container-fluid card-left">
+            <div class="container-fluid card-right">
               <div class="container">
                 <p><%= product.description %></p>
               </div>
-              <% product.icons.each do |icon|%>
-                <div class="container">
+              <div class="container icon-container">
+                <% product.icons.each do |icon|%>
                   <%= image_tag icon, class:"card-icon" %>
-                </div>
-              <% end %>
+                <% end %>
+              </div>
             </div>
           </div>
         </div>
