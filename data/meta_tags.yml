@@ -3,4 +3,5 @@ og:
   project_name: "MY NAME - Web Developer"
   title: "MY NAME - Web Developer"
   description: "A portfolio of my web apps."
-  # image: "og_image.png"
+  image: "og_image.png"
+  icon: "ruby"
