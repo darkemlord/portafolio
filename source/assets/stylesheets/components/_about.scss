@@ -1,5 +1,23 @@
 .about-text{
+  margin-top: 3rem;
   p{
     font-size: 1.5rem;
   }
+}
+
+.title{
+  margin-top: 3rem;
+}
+
+@media (max-width: 575px){
+.title{
+  h1{
+    font-size: 32px;
+  }
+}
+.about-text{
+  p{
+    font-size: 1rem;
+  }
+}
 }
