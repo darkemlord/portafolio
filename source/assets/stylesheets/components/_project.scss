@@ -23,14 +23,20 @@
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   z-index: 1;
+  transition: 2s;
   &:hover{
-    background-color: white;
+    background-color: $purple;
+    cursor: pointer;
   }
   img{
     width: 50%;
     object-fit: cover;
     padding-top: 15px;
     padding-bottom: 15px;
+    transition: 2s;
+    &:hover{
+      transform: rotate(20deg);
+    }
   }
 }
 .card-left{
