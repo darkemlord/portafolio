@@ -19,7 +19,9 @@
             <div class="container-fluid card-left">
               <h1><%= product.name %></h1>
               <div class="card-image">
-                <%= image_tag product.image %>
+                <% link_to product.url do %>
+                  <%= image_tag product.image %>
+                <% end %>
               </div>
             </div>
             <div class="container-fluid card-right">

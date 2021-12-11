@@ -1,5 +1,6 @@
 - name: Raibuon
   image: raibuon.png
+  url: "http://www.raibuon.com/"
   description: Raibuon is an application designed to facilitate the tipping process of street musicians, through the app you can promote your performance as an artist and also the places where street artists from all over Japan are now playing live. My role in the app was lead developer so I have been taking care of the back-end as well as the front-end, the app is still developing to become a useful product for the artists.
   icons:
    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
@@ -11,6 +12,7 @@
 
 - name: Kids Market Place
   image: other_product.png
+  url: "/"
   description: Nice App to tip persons in the street
   icons:
     - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"

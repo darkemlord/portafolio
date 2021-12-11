@@ -28,11 +28,16 @@
     background-color: $purple;
     cursor: pointer;
   }
+  a{
+    display: flex;
+    justify-content: center;
+  }
   img{
     width: 50%;
     object-fit: cover;
     padding-top: 15px;
     padding-bottom: 15px;
+
     transition: 2s;
     &:hover{
       transform: rotate(20deg);
