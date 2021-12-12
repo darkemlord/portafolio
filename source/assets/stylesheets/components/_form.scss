@@ -5,6 +5,12 @@ input {
   }
 }
 
-textarea{
+textarea {
   border-radius: 10px !important;
+}
+
+@media (max-width: 770px){
+  .contact-skills-container {
+    flex-direction: column;
+  }
 }
