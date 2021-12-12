@@ -21,5 +21,14 @@
   </div>
   <div class="skills w-100">
     <h1 class="container title">My Skills</h1>
+    <div class="container skills-container">
+      <% data.icons.each do |elements| %>
+        <% elements.icons.each do |icon| %>
+          <div class="container icon-skill">
+            <%= image_tag icon, class:"icon-skill-img" %>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
   </div>
 </div>

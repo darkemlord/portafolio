@@ -1,4 +1,5 @@
-- icons:
+- name: Yisus
+  icons:
    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"

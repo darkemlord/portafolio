@@ -8,6 +8,22 @@ input {
 textarea {
   border-radius: 10px !important;
 }
+.skills-container {
+  height: 455px;
+  border-radius: 10px;
+  background-color: $project-back;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-content: center;
+}
+.icon-skill {
+  height: 100px;
+  width: 100px;
+  img{
+    object-fit: contain;
+  }
+}
 
 @media (max-width: 770px){
   .contact-skills-container {
