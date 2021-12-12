@@ -30,3 +30,13 @@ textarea {
     flex-direction: column;
   }
 }
+@media (max-width: 360px){
+.skills-container {
+  height: 300px;
+}
+.icon-skill {
+  height: 80px;
+  width: 80px;
+}
+
+}
