@@ -13,8 +13,8 @@
           <div class="all-projects">
             <% data.products.each do |product| %>
               <div class="project-main">
-                <% link_to product.url do %>
-                  <%= image_tag product.image %>
+                <% link_to product.url, target: "_blank" do %>
+                  <%= image_tag product.image, target: "_blank" %>
                 <% end %>
                 <h3><%= product.name %></h3>
               </div>
@@ -29,7 +29,7 @@
             <div class="container-fluid card-left">
               <h1><%= product.name %></h1>
               <div class="card-image">
-                <% link_to product.url do %>
+                <% link_to product.url, target: "_blank" do %>
                   <%= image_tag product.image %>
                 <% end %>
               </div>
