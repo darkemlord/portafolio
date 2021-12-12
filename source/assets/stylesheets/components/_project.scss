@@ -16,15 +16,18 @@
 
 .project-card-main{
   display: flex;
+  height: 500px;
   flex-direction: column;
   background-color: $project-back;
   img{
-    width: 200px;
-    height: 350px;
+    width: 180px;
+    height: 330px;
+    margin: auto;
   }
 }
 
 .all-projects{
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -33,7 +36,16 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-color: $mauve-back;
+  h3{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: $mauve-back;
+    width: 250px;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
 }
 .card-image{
   margin: auto;
