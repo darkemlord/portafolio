@@ -122,6 +122,17 @@
   margin-left: 90px;
 }
 
+@media (max-width: 1000px){
+    .project-main{
+    h3{
+      margin-right: 10px;
+      margin-left: 10px;
+      width: 200px;
+      font-size: 1.3rem;
+    }
+  }
+}
+
 @media(max-width: 1000px){
   .card-right{
     p{
