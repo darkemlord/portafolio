@@ -168,6 +168,19 @@
       font-size: 2rem;
     }
   }
+
+  .all-projects{
+    justify-content: flex-start;
+    overflow: scroll;
+  }
+  .project-main{
+    h3{
+      margin-right: 10px;
+      margin-left: 10px;
+      width: 200px;
+      font-size: 1.2rem;
+    }
+  }
 }
 
 @media (max-width: 420px){
