@@ -162,3 +162,10 @@
   margin-left: 10px;
 }
 }
+
+@media (max-width: 300px){
+  .banner-photo{
+    width: 100px;
+    height: 100px;
+  }
+}
