@@ -6,9 +6,17 @@
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <div class="project-card">
+        <div class="project-card-main">
           <div class="container-fluid card-left">
             <h1>Take a look!</h1>
+          </div>
+          <div class="all-projects">
+            <% data.products.each do |product| %>
+              <div class="project-main">
+                <%= image_tag product.image %>
+                <h3><%= product.name %></h3>
+              </div>
+            <% end %>
           </div>
         </div>
       </div>
