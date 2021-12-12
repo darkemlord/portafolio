@@ -21,3 +21,13 @@
     - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
     - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
     - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
+
+- name: Ema Cocktails
+  image: cocktail.png
+  url: "https://ema-cocktails.herokuapp.com/"
+  description: It is a web application compatible also with mobile devices, it is designed to create and remember your cocktail recipes. I have worked on this personal project playing all roles as a developer, many of my friends use it to remember their favorite cocktails, for this reason, I need to make constant updates.
+  icons:
+    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
+    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
+    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
