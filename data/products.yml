@@ -11,8 +11,13 @@
    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
 
 - name: Kids Market Place
-  image: other_product.png
-  url: "/"
-  description: Nice App to tip persons in the street
+  image: kids-market.png
+  url: "https://kids-marketplace.herokuapp.com/"
+  description: It is an application for mobile devices designed to lend and rent toys that you don't use now and that can be useful for someone else.  I have served as lead developer covering parts of the front-end and back-end, we are still working on making improvements and implementing a more efficient lending system.
   icons:
     - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
+    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
+    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+    - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
