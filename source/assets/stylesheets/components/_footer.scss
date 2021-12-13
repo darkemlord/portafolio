@@ -1,0 +1,16 @@
+.footer {
+  background-color: $mauve-back;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+  p{
+    text-align: center;
+    font-size: 8px;
+    margin-top: 10px;
+  }
+}
+
+.footer-social{
+  margin-top: 20px;
+}
