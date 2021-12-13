@@ -1,4 +1,5 @@
 const navbar = document.querySelector('.navbar');
+const navbarBrand = document.querySelector('.navbar-brand');
 
 const changeNavBarColor = () => {
   if (window.scrollY > 20) {
@@ -13,7 +14,7 @@ window.addEventListener('scroll', () => {
   changeNavBarColor();
 });
 
-navbar.addEventListener('click', () => {
+navbarBrand.addEventListener('click', () => {
   window.scrollTo({
     top: 0,
     behavior: 'smooth'
