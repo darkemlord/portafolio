@@ -44,4 +44,4 @@ configure :build do
   activate :relative_assets
 end
 
-activate :metaman, host: 'https://domain.com'
+activate :metaman, host: 'https://emanuelcaro.me'

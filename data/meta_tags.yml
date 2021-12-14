@@ -1,7 +1,7 @@
 # IMPORTANT: at the bottom of your config.rb, make sure you update your domain
 og:
-  project_name: "MY NAME - Web Developer"
-  title: "MY NAME - Web Developer"
+  project_name: "Emanuel Caro - Web Developer"
+  title: "Emanuel Caro - Web Developer"
   description: "A portfolio of my web apps."
   image: "og_image.png"
   icon: "ruby"
